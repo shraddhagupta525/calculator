@@ -42,10 +42,12 @@ input::placeholder{
 }
 button{
     border:none;
-    padding: 35px;
-    width: 60px;
-    height: 60px;
-    margin:10px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 65px;
+    height: 65px;
+    margin:10px 15px;
     border-radius: 30%;
     justify-content: center;
     align-items: center;
@@ -60,4 +62,18 @@ button{
 }
 .operator{
     color: rgb(37, 236, 193);
+}
+
+.calculator div{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 522px) {
+    input{
+        width: 290px;
+    }
+    button{
+        width: 60px;
+    }
 }
