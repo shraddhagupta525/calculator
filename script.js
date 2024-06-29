@@ -37,7 +37,7 @@ window.addEventListener("load", () => {
       addInExp("8");
     } else if(event.keyCode == 105 | 57){
       addInExp("9");
-    } else if(event.keyCode == 107 | ){
+    } else if(event.keyCode == 107 ){
       addInExp("+");
      
     } else if(event.keyCode == 109){
